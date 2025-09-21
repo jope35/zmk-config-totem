@@ -24,7 +24,6 @@
 &mt {
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <200>;
 };
 
 / {
