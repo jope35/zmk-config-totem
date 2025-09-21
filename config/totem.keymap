@@ -22,10 +22,9 @@
 #define TVP2 5
 
 &mt {
-    quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -34,7 +33,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
             bindings = <&kp ESC>;
         };
 
@@ -42,16 +41,6 @@
             timeout-ms = <100>;
             key-positions = <17 16 18>;
             bindings = <&kp ENTER>;
-        };
-    };
-
-    macros {
-        screenshot: screenshot {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>;
-
-            label = "SCREENSHOT";
         };
     };
 
