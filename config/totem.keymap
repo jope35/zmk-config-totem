@@ -90,8 +90,8 @@
 
         sim_layer {
             bindings = <
-        &kp EXCL  &kp AT         &kp HASH          &kp DOLLAR  &kp PERCENT          &kp CARET             &kp AMPERSAND           &kp ASTERISK             &kp QUESTION           &kp LC(LA(T))
-        &trans    &kp C_AC_BACK  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP      &kp LA(LC(E))         &kp LA(LC(D))           &kp LA(LC(F))            &kp LA(LC(G))          &kp LA(LC(ENTER))
+        &kp EXCL  &kp AT         &kp HASH          &kp DOLLAR  &kp PERCENT          &kp CARET             &kp AMPERSAND           &kp ASTERISK             &kp QUESTION           &kp LC(LA(ENTER))
+        &trans    &kp C_AC_BACK  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP      &kp LA(LC(E))         &kp LA(LC(D))           &kp LA(LC(F))            &kp LA(LC(G))          &kp LA(LC(T))
 &trans  &trans    &trans         &trans            &trans      &kp C_VOLUME_DOWN    &kp LA(LC(LG(LEFT)))  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &kp LC(LG(LA(RIGHT)))  &trans             &kp LA(LC(I))
                                  &trans            &trans      &trans               &trans                &trans                  &trans
             >;
@@ -112,10 +112,10 @@
 
         programming {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp MINUS       &trans  &trans  &kp EQUAL  &kp EXCL    &trans  &trans    &trans                 &trans           &trans
+        &kp UNDERSCORE  &trans  &trans  &kp COLON  &trans      &trans  &kp LBKT  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp COMMA
+&trans  &trans          &trans  &trans  &trans     &trans      &trans  &kp RBKT  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &trans     &kp AT
+                                &trans  &trans     &trans      &trans  &trans    &trans
             >;
 
             label = "prog";
