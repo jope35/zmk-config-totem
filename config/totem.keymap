@@ -112,7 +112,7 @@
 
         programming {
             bindings = <
-        &trans     &kp EXCL   &kp SINGLE_QUOTE   &kp EQUAL  &trans    &trans  &kp LT    &kp GT                 &kp UNDER        &trans
+        &trans     &kp EXCL   &kp SINGLE_QUOTE   &trans     &trans    &trans  &kp LT    &kp GT                 &kp UNDER        &kp EQUAL
         &kp MINUS  &kp ASTRK  &kp DOUBLE_QUOTES  &kp COLON  &trans    &trans  &kp LBKT  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp COMMA
 &trans  &trans     &trans     &kp AMPS           &kp PIPE   &trans    &trans  &kp RBKT  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &trans     &kp AT
                               &trans             &trans     &trans    &trans  &trans    &trans
