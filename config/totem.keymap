@@ -43,22 +43,13 @@
         };
 
         bluetooth_lock {
-            bindings = <&lt 4 LG(LS(Q))>;
+            bindings = <&lt 4 LG(LC(Q))>;
             key-positions = <20 31>;
         };
 
         window_lock {
-            bindings = <&lt 3 A>;
+            bindings = <&lt 3 C_AL_CALCULATOR>;
             key-positions = <36 33>;
-        };
-    };
-
-    macros {
-        space_dot: space_dot {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "SPACE_DOT";
         };
     };
 
