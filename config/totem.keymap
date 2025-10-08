@@ -76,6 +76,16 @@
                            &mt LEFT_COMMAND TAB  &lt 1 GRAVE  &lt 2 DELETE    &kp BACKSPACE  &lt 4 SPACE  &kp ENTER
             >;
         };
+        programming {
+            bindings = <
+        &trans     &trans     &kp SINGLE_QUOTE   &kp EXCL   &trans    &trans  &kp LT                 &kp GT             &kp UNDER        &kp EQUAL
+        &kp MINUS  &kp ASTRK  &kp DOUBLE_QUOTES  &kp COLON  &trans    &trans  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp COMMA
+&trans  &trans     &trans     &kp AMPS           &kp PIPE   &trans    &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans     &kp AT
+                              &trans             &trans     &trans    &trans  &trans                 &trans
+            >;
+
+            label = "prog";
+        };
 
         nav_layer {
             bindings = <
@@ -110,15 +120,6 @@
             label = "bt_layer";
         };
 
-        programming {
-            bindings = <
-        &trans     &trans     &kp SINGLE_QUOTE   &kp EXCL   &trans    &trans  &kp LT                 &kp GT             &kp UNDER        &kp EQUAL
-        &kp MINUS  &kp ASTRK  &kp DOUBLE_QUOTES  &kp COLON  &trans    &trans  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp COMMA
-&trans  &trans     &trans     &kp AMPS           &kp PIPE   &trans    &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans     &kp AT
-                              &trans             &trans     &trans    &trans  &trans                 &trans
-            >;
 
-            label = "prog";
-        };
     };
 };
