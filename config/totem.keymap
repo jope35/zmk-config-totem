@@ -48,7 +48,7 @@
         };
 
         window_lock {
-            bindings = <&lt 3 C_AL_CALCULATOR>;
+            bindings = <&lt 3 LG(SPACE)>;
             key-positions = <36 33>;
         };
     };
