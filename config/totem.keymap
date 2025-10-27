@@ -47,7 +47,7 @@
             key-positions = <20 31>;
         };
 
-        window_lock {
+        layer_spotlight {
             bindings = <&lt 3 LG(SPACE)>;
             key-positions = <36 33>;
         };
@@ -61,10 +61,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-                    &kp Q  &kp W       &kp E        &kp R        &kp T                      &kp Y          &kp U        &kp I        &kp O       &kp P
-                    &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G                      &kp H          &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
-&mt LEFT_SHIFT TAB  &kp Z  &kp X       &kp C        &kp V        &kp B                      &kp N          &kp M        &kp COMMA    &kp DOT     &kp FSLH       &mt LS(LA(LC(LEFT_GUI))) RIGHT_COMMAND
-                                       &trans       &lt 2 GRAVE  &mt LEFT_COMMAND DELETE    &kp BACKSPACE  &lt 1 SPACE  &kp ENTER
+            &kp Q  &kp W       &kp E        &kp R        &kp T                      &kp Y          &kp U        &kp I        &kp O       &kp P
+            &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G                      &kp H          &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
+&caps_word  &kp Z  &kp X       &kp C        &kp V        &kp B                      &kp N          &kp M        &kp COMMA    &kp DOT     &kp FSLH       &mt LS(LA(LC(LEFT_GUI))) RIGHT_COMMAND
+                               &mt TAB TAB  &lt 2 GRAVE  &mt LEFT_COMMAND DELETE    &kp BACKSPACE  &lt 1 SPACE  &kp ENTER
             >;
         };
 
